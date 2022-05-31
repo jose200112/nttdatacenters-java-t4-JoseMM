@@ -29,12 +29,6 @@ public class School {
 	}
 
 	/**
-	 * Constructor vacio para usar el mapa 1
-	 */
-	public School() {
-	}
-
-	/**
 	 * Metodo toString personalizado para la clase centro educativo
 	 */
 	@Override
