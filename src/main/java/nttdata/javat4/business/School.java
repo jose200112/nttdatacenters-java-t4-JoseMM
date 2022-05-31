@@ -5,6 +5,7 @@ import java.util.Map;
 
 /**
  * Clase centro educativo
+ * 
  * @author jose
  *
  */
@@ -12,10 +13,11 @@ public class School {
 	private String name;
 	private String mode;
 	private String city;
-	protected static Map<Student,School> map1 = new HashMap<>();
-	
+	protected static Map<Student, School> map1 = new HashMap<>();
+
 	/**
 	 * Constructor con parametros necesarios para registrar un centro
+	 * 
 	 * @param name (nombre del centro)
 	 * @param mode (modalidad)
 	 * @param city (ciudad)
@@ -25,13 +27,13 @@ public class School {
 		this.mode = mode;
 		this.city = city;
 	}
-	
+
 	/**
 	 * Constructor vacio para usar el mapa 1
 	 */
 	public School() {
 	}
-	
+
 	/**
 	 * Metodo toString personalizado para la clase centro educativo
 	 */
@@ -39,8 +41,5 @@ public class School {
 	public String toString() {
 		return "Centro educativo: " + name + ", modalidad: " + mode + ", ciudad: " + city;
 	}
-	
-	
-	
-	
+
 }
